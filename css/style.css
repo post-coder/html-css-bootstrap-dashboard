@@ -1,0 +1,29 @@
+.my_nav {
+    /* sto esplicitando l'altezza risultante dalle stilizzazioni di bootstrap */
+    height: 56px;
+    width: 100%;
+}
+
+
+#lower-section {
+    display: flex;
+    
+    height: calc(100vh - 56px);
+}
+
+.my_aside {
+    background-color: #71aaff;
+    border: solid 2px black;
+    /* test */
+    width: 190px;
+}
+
+.my_main {
+    background-color: #c15bff;
+    border: solid 2px black;
+    /* test */
+
+    width: calc(100% - 190px);
+
+    overflow-y: auto;
+}
